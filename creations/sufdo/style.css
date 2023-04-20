@@ -1,0 +1,669 @@
+* {
+    margin:0;
+    color:white;
+}
+
+@font-face {
+    font-family: theBoldFont;
+    src: url("../../assets/font/THEBOLDFONT.ttf");
+}
+
+@font-face {
+    font-family: anton;
+    src: url("../../assets/font/Anton-Regular.ttf");
+}
+
+@font-face {
+    font-family: leagueSpartan;
+    src: url("../../assets/font/LeagueSpartan.ttf");
+}
+
+.ellipsis {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.0854167) 37.5%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    width: 466px;
+    height: 466px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-family: theBoldFont;
+    font-size: 96px;
+}
+
+h2 {
+    font-family: anton;
+    font-size: 64px;
+    font-weight: normal;
+}
+
+.legend {
+    font-size: 20px;
+    width: auto;
+    color: #dcdcdc;
+}
+
+p {
+    font-family: leagueSpartan;
+    font-size: 30px;
+}
+
+p, h1, h2 {
+    text-align: center;
+    margin-bottom: 32px;
+    width: 640px;
+}
+
+
+
+a {
+  outline: none;
+  text-decoration: none;
+  color:#6c7497;
+}
+
+a:visited {
+}
+
+.button {
+    padding: 15px 35px;
+    margin-bottom: 96px;
+    border-radius: 50px;
+    border: solid 4px rgb(255, 137, 33);
+    color: rgb(255, 137, 33);
+    font-size: 22px;
+    font-family: leagueSpartan;
+    transition: 0.3s ease-out;
+}
+
+.button:hover {
+    background-color: rgb(255, 137, 33);
+    color: rgb(255, 255, 255);
+}
+
+.threeElements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.threeElements img {
+    margin: 0px 32px;
+}
+
+.twoElements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 720px;
+}
+
+#sufdoTitle, #suwardTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.line {
+    width: 50px;
+    height: 1px;
+    background-color: white;
+}
+
+.title {
+    width:fit-content;
+    margin-bottom: 24px;
+    padding: 0px 10px;
+}
+
+.twoElements div {
+    margin: 0px 16px;
+}
+
+#title {
+    font-variant-caps: small-caps;
+    font-size: 5em;
+}
+
+.sufdo-header {
+    margin-bottom: 144px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 258px;
+}
+
+.suward-header {
+    position: absolute;
+    margin-bottom: 144px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 104px;
+
+}
+
+.suward-header > div, .sufdo-header > div {
+    margin-bottom: 0px;
+    position: relative;
+}
+
+
+body {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%), 
+                linear-gradient(180deg, #480000 0%, #5E0000 36.65%, #0E1A83 69.06%, #04082C 90%);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    margin:auto;
+}
+
+body div {
+    margin-bottom: 240px;
+}
+
+
+.group {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.group2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.group > img {
+    margin-bottom: 32px;
+}
+
+#suwardTitle {
+    background: linear-gradient(180deg, #FFFFFF 0%, #FDFF87 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#suwardBackground {
+    position: relative;
+    opacity: 0.25;
+    border-top: solid 3px white;
+}
+
+.abs {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 0;
+}
+
+.container { 
+    margin-bottom: 0;
+}
+
+#group4 {
+    transform: translateY(-65%);
+    margin-bottom: 0;
+}
+
+
+#suwardLogo {
+    height: 154px;
+    width: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#sufdoLogo {
+    height: 120px;
+    width: auto;
+}
+
+
+#pygameLogo {
+    height: 63px;
+    width: auto;
+}
+
+
+#dofusLogo {
+    height: 153px;
+    width: auto;
+}
+
+#sufdoGlobal {
+    height: 444px;
+    width: auto;
+}
+
+#evol1 {
+    height: 200px;
+    width: auto;
+}
+
+#evol2 {
+    height: 234px;
+    width: auto;
+}
+
+#evol3 {
+    height: 301px;
+    width: auto;
+}
+
+#sufdoCharacter {
+    height: 64px;
+    width: auto;
+}
+
+#sufdoSpells {
+    height: 570px;
+    width: auto;
+}
+
+#iaShowcase {
+    height: 177px;
+    width: auto;
+}
+
+#spellPreview {
+    height: 349px;
+    width: auto;
+}
+
+
+#gif {
+    height: 359px;
+    width: auto;
+}
+
+#libgdxLogo {
+    height: 50px;
+    width: auto;
+}
+
+#kryoNetLogo {
+    height: 114px;
+    width: auto;
+}
+
+#eritCharacter {
+    height: 580px;
+    width: auto;
+}
+
+#eggAndFrogCharacters {
+    height: 509px;
+    width: auto;
+}
+
+#hpInterface {
+    height: 200px;
+    width: auto;
+}
+
+#suwardStatus {
+    height: 64px;
+    width: auto;
+}
+
+#suwardSpells {
+    height: 256px;
+    width: auto;
+}
+
+
+/*Animations*/
+
+#suwardTitle.reveal2, #sufdoTitle.firstReveal {
+    opacity: 0;
+    transition: 2s;
+}
+
+#suwardTitle.reveal2.active, #sufdoTitle.firstReveal.active {
+    opacity: 1;
+}
+
+.reveal2, .firstReveal {
+    opacity: 0;
+    transition: 4s;
+}
+
+.reveal2.active, .firstReveal.active {
+    opacity: 1;
+}
+
+.reveal {
+    opacity: 0;
+}
+
+h2.reveal.active {
+    opacity: 1;
+    animation: 1s anim-lineUp ease-out;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+
+/* Blocks Anmiations */
+.blockAnimIn {
+    position: relative;
+    margin: 150px 0px;
+}
+
+.block1, .block2, .block3, .block4 {
+    position: absolute;
+    width: 64px;
+    height:auto; 
+    left:-32px;
+    opacity: 0;
+    transition: 0.5s ease-out;
+}
+
+.blockAnimIn .reveal.active:hover {
+    transform: translateY(20%);
+}
+
+
+.block1.reveal.active {
+    opacity: 1;
+    animation: 2s anim-lineDown1 ease-out;
+  }
+  @keyframes anim-lineDown1 {
+    0% {
+      opacity: 0;
+      transform: translateY(-280%);
+    }
+    35% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+}
+
+.block2 {
+    top:16px;
+    left:0px;
+}
+
+.block2.reveal.active {
+    opacity: 1;
+    animation: 2s anim-lineDown2 ease-out;
+  }
+  @keyframes anim-lineDown2 {
+    0% {
+      opacity: 0;
+      transform: translateY(-220%);
+    }
+    35% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+}
+
+.block3 {
+    top:16px;
+    left:-64px;
+}
+
+.block3.reveal.active {
+    opacity: 1;
+    animation: 2s anim-lineDown2 ease-out;
+}
+
+.block4 {
+    top:32px;
+}
+
+.block4.reveal.active {
+    opacity: 1;
+    animation: 2s anim-lineDown3 ease-out;
+  }
+  @keyframes anim-lineDown3 {
+    0% {
+      opacity: 0;
+      transform: translateY(-150%);
+    }
+    35% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+}
+
+
+
+
+@media screen and (max-width: 1280px) {
+    p, h1, h2 {
+        margin-bottom: 26px;
+        width: 420px;
+    }
+
+    h1 {
+        font-size: 18vw;
+    }
+
+    
+    h2 {
+        font-family: anton;
+        font-size: 9vw;
+        font-weight: normal;
+    }
+    
+    .legend {
+        font-size: 16px;
+        width: auto;
+        color: #dcdcdc;
+    }
+    
+    p {
+        font-family: leagueSpartan;
+        font-size: 24px;
+    }
+
+    #eritCharacter {
+        height: 420px;
+        width: auto;
+    }
+    
+    #eggAndFrogCharacters {
+        height: 369px;
+        width: auto;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    #pygameLogo {
+        height: 42px;
+        width: auto;
+    }
+    
+    #dofusLogo {
+        height: 101px;
+        width: auto;
+    }
+    
+    #sufdoGlobal {
+        height: 314px;
+        width: auto;
+    }
+
+    #sufdo {
+        height: 314px;
+        width: auto;
+    }
+
+    #sufdoCharacter {
+        height: 46px;
+        width: auto;
+    }
+
+    #eritCharacter {
+        height: 280px;
+        width: auto;
+    }
+    
+    #eggAndFrogCharacters {
+        height: 230px;
+        width: auto;
+    }
+
+    #sufdoSpells {
+        height: auto;
+        width: 80vw;
+    }
+
+    #suwardSpells {
+        height: auto;
+        width: 80vw;
+    }
+
+    #suwardStatus {
+        height: 51px;
+        width: auto;
+    }
+
+    #hpInterface {
+        height: 160px;
+        width: auto;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .threeElements {
+        flex-direction: column;
+        margin-bottom: 32px;
+    }
+
+    .threeElements > div {
+        margin-bottom: 32px;
+        margin-top: 32px;
+    }
+
+    .twoElements {
+        flex-direction: column;
+    }
+
+    .twoElements > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #iaShowcase {
+        height: 25vw;
+        width: auto;
+    }
+
+    #spellPreview {
+        height: auto;
+        width: 80vw;
+    }
+
+    .legend {
+        font-size: 14px;
+    }
+
+    #sufdoCharacter {
+        height: auto;
+        width: 80vw;
+    }
+
+    #gif {
+        width: 80vw;
+        height: auto;
+    }
+
+    
+    
+}
+
+
+@media screen and (max-width: 640px) {
+    p {
+        width: 80vw;
+        font-size: 5vw;
+    }
+
+    .legend {
+        width: 80vw;
+    }
+
+    #sufdoGlobal {
+        width: 80vw;
+        height: auto;
+    }
+
+    #evol1 {
+        width: 60vw;
+        height: auto;
+    }
+
+    #evol2 {
+        width: 80vw;
+        height: auto;
+    }
+
+    #evol3 {
+        width: 80vw;
+        height: auto;
+    }
+
+    #sufdoCharacter {
+        width: 80vw;
+        height: auto;
+    }
+
+    #gif {
+        width: 80vw;
+        height: auto;
+    }
+
+    #suwardStatus {
+        width: 80vw;
+        height: auto;
+    }
+
+    #suwardSpells {
+        width: 80vw;
+        height: auto;
+    }
+
+}
